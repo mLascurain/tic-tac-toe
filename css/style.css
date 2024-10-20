@@ -20,6 +20,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -49,7 +50,6 @@ button:hover {
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   gap: 5px;
-  border: 2px solid red;
 }
 .celda {
   display: flex;
@@ -58,5 +58,6 @@ button:hover {
   border: 1px solid black;
   font-size: 2rem;
   cursor: pointer;
-  border: 2px solid blue;
+  background: #2b2b2b;
+  align-items: center;
 }
